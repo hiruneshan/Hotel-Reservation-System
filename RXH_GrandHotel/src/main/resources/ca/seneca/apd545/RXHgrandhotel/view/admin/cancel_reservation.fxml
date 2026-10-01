@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ca.seneca.apd545.RXHgrandhotel.controller.admin.CancelReservationController"
+            prefWidth="900" prefHeight="650">
+
+
+    <top>
+        <VBox spacing="0">
+            <fx:include source="../components/banner.fxml" fx:id="banner"/>
+
+            <HBox alignment="CENTER_LEFT"
+                  style="-fx-background-color: #e6e6e6; -fx-padding: 12 20;">
+                <Label text="Cancel Reservation"
+                       style="-fx-font-family: Arial; -fx-font-size: 20px; -fx-font-weight: bold;"/>
+            </HBox>
+        </VBox>
+    </top>
+
+    <center>
+        <VBox spacing="15" style="-fx-padding: 15;">
+
+
+            <TitledPane text="Guest Details" expanded="true">
+                <GridPane hgap="12" vgap="10" style="-fx-padding: 12;">
+
+                    <Label text="Guest Name:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                    <Label fx:id="guestNameLabel" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+                    <Label text="Phone:" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+                    <Label fx:id="guestPhoneLabel" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+
+                    <Label text="Email:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                    <Label fx:id="guestEmailLabel" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+                    <Label text="Loyalty Status:" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+                    <Label fx:id="loyaltyStatusLabel" GridPane.rowIndex="1" GridPane.columnIndex="3"/>
+
+                </GridPane>
+            </TitledPane>
+
+
+            <TitledPane text="Reservation Details" expanded="true">
+                <GridPane hgap="12" vgap="10" style="-fx-padding: 12;">
+
+                    <Label text="Booking ID:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                    <Label fx:id="bookingIdLabel"
+                           style="-fx-font-weight: bold;"
+                           GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+                    <Label text="Check-in:" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+                    <Label fx:id="checkInLabel" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+
+                    <Label text="Check-out:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                    <Label fx:id="checkOutLabel" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+                    <Label text="Room Type:" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+                    <Label fx:id="roomTypeLabel" GridPane.rowIndex="1" GridPane.columnIndex="3"/>
+
+                    <Label text="Guests:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+                    <Label fx:id="guestCountLabel" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+                    <Label text="Status:" GridPane.rowIndex="2" GridPane.columnIndex="2"/>
+                    <Label fx:id="statusLabel" GridPane.rowIndex="2" GridPane.columnIndex="3"/>
+
+                </GridPane>
+            </TitledPane>
+
+
+            <TitledPane text="Financial Summary" expanded="true">
+                <GridPane hgap="12" vgap="10" style="-fx-padding: 12;">
+
+                    <Label text="Total Amount:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                    <Label fx:id="totalAmountLabel" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+                    <Label text="Paid:" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+                    <Label fx:id="paidAmountLabel" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+
+                    <Label text="Outstanding:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                    <Label fx:id="outstandingAmountLabel"
+                           style="-fx-font-weight: bold;"
+                           GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+                    <Label text="Refund Eligible:" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+                    <Label fx:id="refundEligibleLabel" GridPane.rowIndex="1" GridPane.columnIndex="3"/>
+
+                </GridPane>
+            </TitledPane>
+
+
+            <TitledPane text="Charges &amp; Adjustments" expanded="false">
+                <TableView fx:id="chargesTable" prefHeight="200">
+                    <columns>
+                        <TableColumn fx:id="colChargeType" text="Type" prefWidth="150"/>
+                        <TableColumn fx:id="colChargeAmount" text="Amount" prefWidth="120"/>
+                        <TableColumn fx:id="colChargeDate" text="Date" prefWidth="150"/>
+                        <TableColumn fx:id="colChargeDescription" text="Description" prefWidth="300"/>
+                    </columns>
+                </TableView>
+            </TitledPane>
+
+
+            <TitledPane text="Cancellation Reason" expanded="true">
+                <VBox spacing="10" style="-fx-padding: 12;">
+                    <TextArea fx:id="cancelReasonArea" prefRowCount="3" wrapText="true"/>
+                    <Label fx:id="cancelFeedbackLabel" style="-fx-text-fill: red;"/>
+                </VBox>
+            </TitledPane>
+
+        </VBox>
+    </center>
+
+
+    <bottom>
+        <HBox spacing="10"
+              alignment="CENTER_RIGHT"
+              style="-fx-padding: 10 20 20 20;">
+            <Button text="Confirm Cancellation" fx:id="confirmCancelButton" prefWidth="180"/>
+            <Button text="Close" fx:id="closeButton" prefWidth="120"/>
+        </HBox>
+    </bottom>
+
+</BorderPane>

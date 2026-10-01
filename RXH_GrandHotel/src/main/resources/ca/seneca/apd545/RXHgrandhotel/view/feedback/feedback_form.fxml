@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ca.seneca.apd545.RXHgrandhotel.controller.feedback.FeedbackFormController"
+            prefWidth="550" prefHeight="600">
+
+    <top>
+        <fx:include source="../components/banner.fxml" fx:id="banner"/>
+    </top>
+
+    <center>
+        <VBox alignment="TOP_CENTER"
+              spacing="20"
+              style="-fx-padding: 25;">
+
+
+            <Label text="Guest Feedback"
+                   style="-fx-font-family: Arial; -fx-font-size: 22px; -fx-font-weight: bold;"/>
+
+            <VBox spacing="10" prefWidth="420"
+                  style="-fx-border-color: #cccccc; -fx-border-width: 1; -fx-padding: 15;">
+
+                <Label text="Guest Information"
+                       style="-fx-font-family: Arial; -fx-font-size: 16px; -fx-font-weight: bold;"/>
+
+                <HBox spacing="10" alignment="CENTER_LEFT">
+                    <Label text="Full Name:" prefWidth="120"/>
+                    <Label fx:id="guestNameLabel"/>
+                </HBox>
+
+                <HBox spacing="10" alignment="CENTER_LEFT">
+                    <Label text="Email:" prefWidth="120"/>
+                    <Label fx:id="guestEmailLabel"/>
+                </HBox>
+
+                <HBox spacing="10" alignment="CENTER_LEFT">
+                    <Label text="Phone:" prefWidth="120"/>
+                    <Label fx:id="guestPhoneLabel"/>
+                </HBox>
+
+                <HBox spacing="10" alignment="CENTER_LEFT">
+                    <Label text="Booking ID:" prefWidth="120"/>
+                    <Label fx:id="bookingIdLabel" style="-fx-font-weight: bold;"/>
+                </HBox>
+            </VBox>
+
+            <VBox spacing="8" alignment="CENTER">
+                <Label text="Rate Your Stay:" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+
+                <HBox alignment="CENTER" spacing="8">
+                    <Button fx:id="star1" text="1" prefWidth="60" style="-fx-font-size: 16px; -fx-background-color: #e0e0e0;"/>
+                    <Button fx:id="star2" text="2" prefWidth="60" style="-fx-font-size: 16px; -fx-background-color: #e0e0e0;"/>
+                    <Button fx:id="star3" text="3" prefWidth="60" style="-fx-font-size: 16px; -fx-background-color: #e0e0e0;"/>
+                    <Button fx:id="star4" text="4" prefWidth="60" style="-fx-font-size: 16px; -fx-background-color: #e0e0e0;"/>
+                    <Button fx:id="star5" text="5" prefWidth="60" style="-fx-font-size: 16px; -fx-background-color: #e0e0e0;"/>
+                </HBox>
+            </VBox>
+
+            <VBox spacing="5" alignment="CENTER">
+                <Label text="Comments:"/>
+                <TextArea fx:id="commentsField"
+                          prefWidth="420"
+                          prefHeight="150"
+                          wrapText="true"/>
+            </VBox>
+
+
+            <HBox alignment="CENTER" spacing="20">
+                <Button fx:id="backButton"
+                        text="Back"
+                        prefWidth="120"
+                        onAction="#onBack"/>
+
+                <Button fx:id="clearButton"
+                        text="Clear All"
+                        prefWidth="120"
+                        onAction="#onClear"/>
+
+                <Button fx:id="cancelButton"
+                        text="Cancel"
+                        prefWidth="120"
+                        onAction="#onCancel"/>
+
+                <Button fx:id="submitButton"
+                        text="Submit Feedback"
+                        prefWidth="160"
+                        style="-fx-font-weight: bold;"
+                        onAction="#onSubmit"/>
+            </HBox>
+            <Label fx:id="confirmationLabel"
+                   text=""
+                   style="-fx-text-fill: green; -fx-font-size: 14px;"
+                   wrapText="true"
+                   alignment="CENTER"
+                   prefWidth="420"/>
+        </VBox>
+    </center>
+
+</BorderPane>

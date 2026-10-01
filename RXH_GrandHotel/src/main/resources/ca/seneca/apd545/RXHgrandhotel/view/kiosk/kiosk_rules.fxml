@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ca.seneca.apd545.RXHgrandhotel.controller.kiosk.KioskRulesController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <!-- Banner -->
+    <fx:include source="../components/banner.fxml" fx:id="banner"/>
+
+    <VBox alignment="TOP_CENTER"
+          spacing="15"
+          layoutX="50"
+          layoutY="100"
+          prefWidth="500">
+
+        <Label text="Hotel Rules &amp; Regulations"
+               style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+
+        <TextArea fx:id="rulesText"
+                  editable="false"
+                  wrapText="true"
+                  prefHeight="200"
+                  prefWidth="500"/>
+
+        <!-- FIXED: Back button now calls onBack() -->
+        <Button text="Back"
+                fx:id="backButton"
+                prefWidth="150"
+                onAction="#onBack"/>
+    </VBox>
+
+</AnchorPane>

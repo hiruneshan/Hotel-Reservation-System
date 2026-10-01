@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ca.seneca.apd545.RXHgrandhotel.controller.admin.FeedbackViewerController"
+            prefWidth="900" prefHeight="650">
+
+
+    <top>
+        <VBox spacing="0">
+            <fx:include source="../components/banner.fxml" fx:id="banner"/>
+
+
+            <HBox alignment="CENTER_LEFT"
+                  style="-fx-background-color: #e6e6e6; -fx-padding: 10 20;">
+                <Label text="Guest Feedback"
+                       style="-fx-font-family: Arial; -fx-font-size: 20px; -fx-font-weight: bold;"/>
+            </HBox>
+        </VBox>
+    </top>
+
+
+    <center>
+        <VBox spacing="15" style="-fx-padding: 15;">
+
+            <TitledPane text="Feedback Filters" expanded="true">
+                <GridPane hgap="10" vgap="8" style="-fx-padding: 10;">
+
+                    <Label text="Rating:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                    <ComboBox fx:id="ratingFilterCombo" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+                    <Label text="From Date:" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+                    <DatePicker fx:id="fromDatePicker" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+
+                    <Label text="To Date:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                    <DatePicker fx:id="toDatePicker" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+                    <Label text="Sentiment:" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+                    <ComboBox fx:id="sentimentFilterCombo" GridPane.rowIndex="1" GridPane.columnIndex="3"/>
+
+                    <Label text="Guest Name:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+                    <TextField fx:id="guestFilterField" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+                    <Label text="Category:" GridPane.rowIndex="2" GridPane.columnIndex="2"/>
+                    <ComboBox fx:id="categoryFilterCombo" GridPane.rowIndex="2" GridPane.columnIndex="3"/>
+
+                    <Button text="Search" fx:id="searchButton"
+                            GridPane.rowIndex="3" GridPane.columnIndex="3"/>
+                </GridPane>
+            </TitledPane>
+
+
+            <TitledPane text="Selected Feedback Details" expanded="false">
+                <GridPane hgap="10" vgap="8" style="-fx-padding: 10;">
+
+                    <Label text="Guest:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                    <Label fx:id="detailGuestLabel" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+                    <Label text="Stay ID:" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+                    <Label fx:id="detailStayIdLabel" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+
+                    <Label text="Room Type:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                    <Label fx:id="detailRoomTypeLabel" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+                    <Label text="Check-in:" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+                    <Label fx:id="detailCheckInLabel" GridPane.rowIndex="1" GridPane.columnIndex="3"/>
+
+                    <Label text="Check-out:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+                    <Label fx:id="detailCheckOutLabel" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+                    <Label text="Rating:" GridPane.rowIndex="2" GridPane.columnIndex="2"/>
+                    <Label fx:id="detailRatingLabel" GridPane.rowIndex="2" GridPane.columnIndex="3"/>
+
+                    <Label text="Sentiment Score:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+                    <Label fx:id="detailSentimentScoreLabel" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+                    <Label text="Category:" GridPane.rowIndex="3" GridPane.columnIndex="2"/>
+                    <Label fx:id="detailCategoryLabel" GridPane.rowIndex="3" GridPane.columnIndex="3"/>
+
+                    <Label text="Source:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+                    <Label fx:id="detailSourceLabel" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+
+                </GridPane>
+            </TitledPane>
+
+
+            <TitledPane text="Feedback Records" expanded="true">
+                <TableView fx:id="feedbackTable" prefHeight="350">
+                    <columns>
+                        <TableColumn fx:id="colFBDate" text="Date" prefWidth="120"/>
+                        <TableColumn fx:id="colFBGuest" text="Guest" prefWidth="150"/>
+                        <TableColumn fx:id="colFBRating" text="Rating" prefWidth="80"/>
+                        <TableColumn fx:id="colFBSentiment" text="Sentiment" prefWidth="100"/>
+                        <TableColumn fx:id="colFBCategory" text="Category" prefWidth="120"/>
+                        <TableColumn fx:id="colFBComment" text="Comment" prefWidth="350"/>
+                    </columns>
+                </TableView>
+            </TitledPane>
+
+        </VBox>
+    </center>
+
+    <bottom>
+        <HBox spacing="10"
+              alignment="CENTER_RIGHT"
+              style="-fx-padding: 10 10 20 10;"> <!-- extra bottom padding -->
+            <Button text="Export Summary" fx:id="exportButton"/>
+            <Button text="Close" fx:id="closeButton" prefWidth="120"/>
+        </HBox>
+    </bottom>
+
+</BorderPane>

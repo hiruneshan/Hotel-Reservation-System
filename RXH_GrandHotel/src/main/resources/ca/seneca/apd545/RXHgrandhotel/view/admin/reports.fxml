@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ca.seneca.apd545.RXHgrandhotel.controller.admin.ReportsController"
+            prefWidth="1100" prefHeight="750">
+
+    <top>
+        <VBox spacing="0">
+            <fx:include source="../components/banner.fxml" fx:id="banner"/>
+
+            <HBox alignment="CENTER_LEFT"
+                  style="-fx-background-color: #e6e6e6; -fx-padding: 12 20;">
+                <Label text="Reports"
+                       style="-fx-font-family: Arial; -fx-font-size: 20px; -fx-font-weight: bold;"/>
+            </HBox>
+        </VBox>
+    </top>
+
+    <center>
+        <VBox spacing="20" style="-fx-padding: 20;">
+
+            <TitledPane text="Report Filters" expanded="true">
+                <GridPane hgap="15" vgap="12" style="-fx-padding: 15;">
+
+                    <Label text="Report Type:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                    <ComboBox fx:id="reportTypeCombo" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+                    <Label text="View Range:" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+                    <ComboBox fx:id="viewRangeCombo" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+
+                    <Label text="Room Type:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                    <ComboBox fx:id="roomTypeCombo" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+                    <Label text="From Date:" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+                    <DatePicker fx:id="fromDatePicker" GridPane.rowIndex="1" GridPane.columnIndex="3"/>
+
+                    <Label text="To Date:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+                    <DatePicker fx:id="toDatePicker" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+                    <Button text="Generate" fx:id="generateButton"
+                            GridPane.rowIndex="2" GridPane.columnIndex="3"
+                            prefWidth="120"/>
+                </GridPane>
+            </TitledPane>
+
+            <TitledPane text="Revenue Report (Daily / Weekly / Monthly)" expanded="true">
+                <VBox spacing="10" style="-fx-padding: 10;">
+                    <TableView fx:id="revenueTable" prefHeight="260">
+                        <columns>
+                            <TableColumn fx:id="colRevPeriod" text="Period" prefWidth="150"/>
+                            <TableColumn fx:id="colRevReservations" text="Reservation Count" prefWidth="150"/>
+                            <TableColumn fx:id="colRevSubtotal" text="Subtotal" prefWidth="120"/>
+                            <TableColumn fx:id="colRevTax" text="Tax" prefWidth="120"/>
+                            <TableColumn fx:id="colRevDiscounts" text="Discounts" prefWidth="120"/>
+                            <TableColumn fx:id="colRevTotal" text="Total Amount" prefWidth="150"/>
+                        </columns>
+                    </TableView>
+                </VBox>
+            </TitledPane>
+
+            <!-- OCCUPANCY REPORT -->
+            <TitledPane text="Occupancy Report (Daily / Weekly / Monthly)" expanded="true">
+                <VBox spacing="10" style="-fx-padding: 10;">
+                    <TableView fx:id="occupancyTable" prefHeight="260">
+                        <columns>
+                            <TableColumn fx:id="colOccDate" text="Date / Period" prefWidth="150"/>
+                            <TableColumn fx:id="colOccAvailable" text="Rooms Available" prefWidth="150"/>
+                            <TableColumn fx:id="colOccOccupied" text="Rooms Occupied" prefWidth="150"/>
+                            <TableColumn fx:id="colOccPercent" text="Occupancy (%)" prefWidth="150"/>
+                        </columns>
+                    </TableView>
+                </VBox>
+            </TitledPane>
+
+        </VBox>
+    </center>
+
+    <!-- BOTTOM -->
+    <bottom>
+        <HBox spacing="10"
+              alignment="CENTER_RIGHT"
+              style="-fx-padding: 10 20 20 20;">
+            <Button text="Export CSV" fx:id="exportCsvButton" prefWidth="140"/>
+            <Button text="Export PDF" fx:id="exportPdfButton" prefWidth="140"/>
+            <Button text="Close" fx:id="closeButton" prefWidth="120"/>
+        </HBox>
+    </bottom>
+
+</BorderPane>

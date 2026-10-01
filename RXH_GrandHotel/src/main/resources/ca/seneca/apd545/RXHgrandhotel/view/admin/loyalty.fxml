@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ca.seneca.apd545.RXHgrandhotel.controller.admin.LoyaltyController"
+            prefWidth="850" prefHeight="650">
+    <top>
+        <VBox spacing="0">
+            <fx:include source="../components/banner.fxml" fx:id="banner"/>
+
+
+            <HBox alignment="CENTER_LEFT"
+                  style="-fx-background-color: #e6e6e6; -fx-padding: 10 20;">
+                <Label text="Loyalty Management"
+                       style="-fx-font-family: Arial; -fx-font-size: 20px; -fx-font-weight: bold;"/>
+            </HBox>
+        </VBox>
+    </top>
+
+    <center>
+        <VBox spacing="15" style="-fx-padding: 15;">
+            <TitledPane text="Loyalty Lookup" expanded="true">
+                <HBox spacing="10" style="-fx-padding: 10;">
+                    <Label text="Guest Name:"/>
+                    <TextField fx:id="guestNameField" prefWidth="200"/>
+
+                    <Label text="Loyalty Number:"/>
+                    <TextField fx:id="loyaltyNumberField" prefWidth="150"/>
+
+                    <Button text="Search" fx:id="searchButton"/>
+                </HBox>
+            </TitledPane>
+            <TitledPane text="Guest Details" expanded="true">
+                <GridPane hgap="10" vgap="8" style="-fx-padding: 10;">
+
+                    <Label text="Full Name:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                    <Label fx:id="guestLabel" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+                    <Label text="Phone:" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+                    <Label fx:id="guestPhoneLabel" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+
+                    <Label text="Email:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                    <Label fx:id="guestEmailLabel" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+                    <Label text="City:" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+                    <Label fx:id="guestCityLabel" GridPane.rowIndex="1" GridPane.columnIndex="3"/>
+
+                </GridPane>
+            </TitledPane>
+            <TitledPane text="Loyalty Summary" expanded="true">
+                <GridPane hgap="10" vgap="8" style="-fx-padding: 10;">
+
+                    <Label text="Loyalty Number:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                    <Label fx:id="loyaltyNumberLabel" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+                    <Label text="Tier:" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+                    <Label fx:id="loyaltyTierLabel" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+
+                    <Label text="Points Balance:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                    <Label fx:id="pointsBalanceLabel" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+                    <Label text="Earning Rate:" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+                    <Label fx:id="earningRateLabel" GridPane.rowIndex="1" GridPane.columnIndex="3"/>
+
+                    <Label text="Total Stays:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+                    <Label fx:id="totalStaysLabel" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+                    <Label text="Total Spend:" GridPane.rowIndex="2" GridPane.columnIndex="2"/>
+                    <Label fx:id="totalSpendLabel" GridPane.rowIndex="2" GridPane.columnIndex="3"/>
+
+                    <Label text="Last Stay:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+                    <Label fx:id="lastStayLabel" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+                </GridPane>
+            </TitledPane>
+            <TitledPane text="Earning &amp; Redemption History" expanded="false">
+                <TableView fx:id="loyaltyHistoryTable" prefHeight="250">
+                    <columns>
+                        <TableColumn fx:id="colLHDate" text="Date" prefWidth="120"/>
+                        <TableColumn fx:id="colLHType" text="Type" prefWidth="100"/>
+                        <TableColumn fx:id="colLHPoints" text="Points" prefWidth="80"/>
+                        <TableColumn fx:id="colLHDescription" text="Description" prefWidth="300"/>
+                    </columns>
+                </TableView>
+            </TitledPane>
+
+        </VBox>
+    </center>
+    <bottom>
+        <HBox spacing="10"
+              alignment="CENTER_RIGHT"
+              style="-fx-padding: 10 10 20 10;">
+
+            <Label text="Redeem Points:"/>
+            <TextField fx:id="redeemPointsField" prefWidth="100"/>
+
+            <Button text="Redeem" fx:id="redeemButton"/>
+
+            <Label fx:id="loyaltyFeedbackLabel" style="-fx-text-fill: red;"/>
+
+            <Button text="Close" fx:id="closeButton" prefWidth="120"/>
+        </HBox>
+    </bottom>
+
+</BorderPane>

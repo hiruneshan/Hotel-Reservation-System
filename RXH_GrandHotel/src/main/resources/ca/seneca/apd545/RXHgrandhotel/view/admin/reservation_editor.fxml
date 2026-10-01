@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ca.seneca.apd545.RXHgrandhotel.controller.admin.ReservationEditorController"
+            prefWidth="850" prefHeight="650">
+
+    <!-- Banner -->
+    <top>
+        <VBox spacing="0">
+            <fx:include source="../components/banner.fxml" fx:id="banner"/>
+
+            <!-- Title Bar -->
+            <HBox alignment="CENTER_LEFT"
+                  style="-fx-background-color: #e6e6e6; -fx-padding: 10 20;">
+                <Label text="Edit Reservation"
+                       style="-fx-font-family: Arial; -fx-font-size: 20px; -fx-font-weight: bold;"/>
+            </HBox>
+        </VBox>
+    </top>
+
+    <!-- MAIN CONTENT -->
+    <center>
+        <VBox spacing="15" style="-fx-padding: 15;">
+
+            <!-- Guest Details -->
+            <TitledPane text="Guest Details" expanded="true">
+                <GridPane hgap="10" vgap="8" style="-fx-padding: 10;">
+
+                    <Label text="Booking ID:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                    <Label fx:id="bookingIdLabel"
+                           style="-fx-font-weight: bold;"
+                           GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+                    <Label text="Full Name:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                    <TextField fx:id="guestNameField" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+                    <Label text="Phone:" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+                    <TextField fx:id="phoneField" GridPane.rowIndex="1" GridPane.columnIndex="3"/>
+
+                    <Label text="Email:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+                    <TextField fx:id="emailField" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+                    <Label text="Address:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+                    <TextField fx:id="addressField" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+                    <Label text="City:" GridPane.rowIndex="3" GridPane.columnIndex="2"/>
+                    <TextField fx:id="cityField" GridPane.rowIndex="3" GridPane.columnIndex="3"/>
+
+                    <Label text="Province:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+                    <TextField fx:id="provinceField" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+
+                    <Label text="Postal Code:" GridPane.rowIndex="4" GridPane.columnIndex="2"/>
+                    <TextField fx:id="postalField" GridPane.rowIndex="4" GridPane.columnIndex="3"/>
+
+                    <Label text="Loyalty Status:" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+                    <Label fx:id="loyaltyStatusLabel" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+
+                </GridPane>
+            </TitledPane>
+
+            <!-- Stay Details -->
+            <TitledPane text="Stay Details" expanded="true">
+                <GridPane hgap="10" vgap="8" style="-fx-padding: 10;">
+
+                    <Label text="Check-in:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                    <DatePicker fx:id="checkInPicker" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+                    <Label text="Check-out:" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+                    <DatePicker fx:id="checkOutPicker" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+
+                    <Label text="Adults:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                    <Spinner fx:id="adultsSpinner" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+                    <Label text="Children:" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+                    <Spinner fx:id="childrenSpinner" GridPane.rowIndex="1" GridPane.columnIndex="3"/>
+
+                    <Label text="Add-ons:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+                    <Label fx:id="addonsLabel" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+                    <Label text="Payment Status:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+                    <Label fx:id="paymentStatusLabel" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+                    <Label text="Discount Applied:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+                    <Label fx:id="discountLabel" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+
+                    <Label fx:id="validationLabel"
+                           GridPane.rowIndex="5" GridPane.columnIndex="0" GridPane.columnSpan="4"
+                           style="-fx-text-fill: red;"/>
+                </GridPane>
+            </TitledPane>
+
+            <!-- Rooms -->
+            <TitledPane text="Rooms (Group Booking Supported)" expanded="true">
+                <VBox spacing="8" style="-fx-padding: 10;">
+                    <TableView fx:id="roomTable" prefHeight="200">
+                        <columns>
+                            <TableColumn fx:id="colRoomType" text="Room Type" prefWidth="150"/>
+                            <TableColumn fx:id="colQuantity" text="Quantity" prefWidth="80"/>
+                            <TableColumn fx:id="colOccupancy" text="Max Occupancy" prefWidth="120"/>
+                            <TableColumn fx:id="colRate" text="Rate/Night" prefWidth="100"/>
+                        </columns>
+                    </TableView>
+
+                    <HBox spacing="10">
+                        <Button text="Add Room" fx:id="addRoomButton"/>
+                        <Button text="Remove Room" fx:id="removeRoomButton"/>
+                        <Label fx:id="occupancyWarningLabel" style="-fx-text-fill: red;"/>
+                    </HBox>
+                </VBox>
+            </TitledPane>
+
+        </VBox>
+    </center>
+
+    <!-- BUTTON BAR -->
+    <bottom>
+        <HBox spacing="10"
+              alignment="CENTER_RIGHT"
+              style="-fx-padding: 10 10 20 10;"> <!-- bottom padding increased -->
+            <Button text="Save Changes" fx:id="saveButton" prefWidth="140"/>
+            <Button text="Cancel Reservation" fx:id="cancelButton" prefWidth="160"/>
+            <Button text="Close" fx:id="closeButton" prefWidth="120"/>
+        </HBox>
+    </bottom>
+
+
+</BorderPane>

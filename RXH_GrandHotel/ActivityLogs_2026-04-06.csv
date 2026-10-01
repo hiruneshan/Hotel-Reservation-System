@@ -1,0 +1,20 @@
+Timestamp,Actor,Action,Entity,ID,Message
+2026-04-06T23:09:07.872164,Admin,REPORT,Occupancy,N/A,Generated occupancy report
+2026-04-06T23:07:56.096808,Admin,WAITLIST_CONVERT,Waitlist,4,Converted waitlist entry to active reservation.
+2026-04-06T23:07:39.130243,Admin,WAITLIST_ADD,Waitlist,4,Added Waitlist to waitlist.
+2026-04-06T23:06:02.250025,Admin,PAYMENT,Reservation,8,Processed payment of $500.0 via CARD
+2026-04-06T23:05:42.450877,Admin,CANCEL,Reservation,9,Reason: testing
+2026-04-06T23:05:08.626150,Admin,CREATE,Reservation,NEW,Admin created booking for: hiru testing 
+2026-04-06T20:15:54.614469,Admin,WAITLIST_CONVERT,Waitlist,3,Converted waitlist entry to active reservation.
+2026-04-06T20:12:58.642503,Admin,WAITLIST_ADD,Waitlist,3,Added testing 4 to waitlist.
+2026-04-06T19:56:41.125803,Admin,WAITLIST_CONVERT,Waitlist,1,Converted waitlist entry to active reservation.
+2026-04-06T19:54:52.435969,Admin,WAITLIST_CONVERT,Waitlist,2,Converted waitlist entry to active reservation.
+2026-04-06T19:54:47.950432,Admin,WAITLIST_ADD,Waitlist,2,Added testing to waitlist.
+2026-04-06T19:48:43.995079,Admin,WAITLIST_ADD,Waitlist,1,Added test to waitlist.
+2026-04-06T19:38:26.171894,Admin,PAYMENT,Reservation,3,Processed payment of $200.0 via CASH
+2026-04-06T19:26:23.030312,Admin,CREATE,Reservation,NEW,Admin created booking for: Testing 2
+2026-04-06T18:57:22.947450,Admin,REPORT,Revenue,N/A,Generated revenue report for 2026-03-30 to 2026-04-30
+2026-04-06T18:48:41.439686,Admin,REPORT,Occupancy,N/A,Generated occupancy report
+2026-04-06T18:48:16.843860,Admin,REPORT,Revenue,N/A,Generated revenue report for 2026-03-30 to 2026-04-30
+2026-04-06T18:48:10.280789,Admin,REPORT,Occupancy,N/A,Generated occupancy report
+2026-04-06T16:42:19.574474,Admin,REPORT,Revenue,N/A,Generated revenue report for 2026-03-31 to 2026-04-16

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ca.seneca.apd545.RXHgrandhotel.controller.kiosk.KioskWelcomeController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <!-- Banner -->
+    <fx:include source="../components/banner.fxml" fx:id="banner"/>
+
+    <!-- Main Content -->
+    <VBox alignment="CENTER" spacing="20"
+          layoutX="150" layoutY="120">
+
+        <Label text="Welcome to RXH Grand Hotel"
+               style="-fx-font-size: 22px; -fx-font-weight: bold;"/>
+
+        <Button text="Start Booking"
+                fx:id="startButton"
+                prefWidth="200"
+                onAction="#onStartBooking"/>
+
+        <Button text="Feedback"
+                fx:id="feedbackButton"
+                prefWidth="200"
+                onAction="#onFeedback"/>
+
+        <Button text="Rules &amp; Regulations"
+                fx:id="rulesButton"
+                prefWidth="200"
+                onAction="#onRules"/>
+
+
+    </VBox>
+
+    <!-- Visible Admin Login Button (bottom-right corner) -->
+    <Button fx:id="adminLoginButton"
+            text="Admin Login"
+            layoutX="480" layoutY="350"
+            prefWidth="100" prefHeight="35"
+            style="-fx-background-color: #2b5797; -fx-text-fill: white; -fx-font-weight: bold;"
+            onAction="#onAdminLogin"/>
+
+</AnchorPane>

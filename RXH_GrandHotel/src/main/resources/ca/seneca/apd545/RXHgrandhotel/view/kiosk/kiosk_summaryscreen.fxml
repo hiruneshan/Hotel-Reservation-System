@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ca.seneca.apd545.RXHgrandhotel.controller.kiosk.KioskSummaryController"
+            prefWidth="600.0" prefHeight="700.0">
+
+    <!-- Banner -->
+    <fx:include source="../components/banner.fxml" fx:id="banner"
+                AnchorPane.topAnchor="0.0"
+                AnchorPane.leftAnchor="0.0"
+                AnchorPane.rightAnchor="0.0"/>
+
+    <!-- Main Content -->
+    <VBox alignment="TOP_CENTER"
+          spacing="25"
+          AnchorPane.topAnchor="120.0"
+          AnchorPane.leftAnchor="40.0"
+          AnchorPane.rightAnchor="40.0"
+          AnchorPane.bottomAnchor="20.0">
+
+        <!-- Title -->
+        <Label text="Booking Summary"
+               style="-fx-font-family: Arial; -fx-font-size: 26px; -fx-font-weight: bold;"/>
+
+        <!-- Guest Details Section -->
+        <VBox spacing="12" prefWidth="500">
+            <Label text="Guest Details"
+                   style="-fx-font-family: Arial; -fx-font-size: 20px; -fx-font-weight: bold;"/>
+
+            <!-- Loyalty Status -->
+            <Label fx:id="summaryLoyaltyStatus"
+                   text=""
+                   style="-fx-font-size: 15px; -fx-text-fill: #0078D7; -fx-font-weight: bold;"/>
+
+            <HBox spacing="10">
+                <Label text="Full Name:" prefWidth="150"/>
+                <Label fx:id="summaryName"/>
+            </HBox>
+
+            <HBox spacing="10">
+                <Label text="Phone Number:" prefWidth="150"/>
+                <Label fx:id="summaryPhone"/>
+            </HBox>
+
+            <HBox spacing="10">
+                <Label text="Email:" prefWidth="150"/>
+                <Label fx:id="summaryEmail"/>
+            </HBox>
+
+            <HBox spacing="10">
+                <Label text="Address:" prefWidth="150"/>
+                <Label fx:id="summaryAddress"/>
+            </HBox>
+
+            <HBox spacing="10">
+                <Label text="City:" prefWidth="150"/>
+                <Label fx:id="summaryCity"/>
+            </HBox>
+
+            <HBox spacing="10">
+                <Label text="Postal Code:" prefWidth="150"/>
+                <Label fx:id="summaryPostal"/>
+            </HBox>
+        </VBox>
+
+        <!-- Booking Details Section -->
+        <VBox spacing="12" prefWidth="500">
+            <Label text="Booking Details"
+                   style="-fx-font-family: Arial; -fx-font-size: 20px; -fx-font-weight: bold;"/>
+
+            <HBox spacing="10">
+                <Label text="Check-In Date:" prefWidth="150"/>
+                <Label fx:id="summaryCheckIn"/>
+            </HBox>
+
+            <HBox spacing="10">
+                <Label text="Check-Out Date:" prefWidth="150"/>
+                <Label fx:id="summaryCheckOut"/>
+            </HBox>
+
+            <HBox spacing="10">
+                <Label text="Guests:" prefWidth="150"/>
+                <Label fx:id="summaryGuests"/>
+            </HBox>
+
+            <HBox spacing="10">
+                <Label text="Rooms Selected:" prefWidth="150"/>
+                <Label fx:id="summaryRooms" wrapText="true"/>
+            </HBox>
+        </VBox>
+
+        <!-- Buttons -->
+        <HBox spacing="30" alignment="CENTER">
+            <Button text="Back"
+                    prefWidth="160"
+                    onAction="#onBack"/>
+
+            <Button text="Confirm Booking"
+                    prefWidth="160"
+                    onAction="#onConfirm"/>
+        </HBox>
+
+    </VBox>
+
+</AnchorPane>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ca.seneca.apd545.RXHgrandhotel.controller.kiosk.SelectGuestsController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <!-- Banner -->
+    <fx:include source="../components/banner.fxml" fx:id="banner"/>
+
+    <!-- Main Content -->
+    <VBox alignment="CENTER" spacing="20"
+          layoutX="150" layoutY="80">
+
+        <Label text="Booking Details"
+               style="-fx-font-size: 22px; -fx-font-weight: bold;"/>
+
+        <!-- Check-in Date -->
+        <VBox alignment="CENTER" spacing="5">
+            <Label text="Check-In Date" style="-fx-font-size: 16px;"/>
+            <DatePicker fx:id="checkInDate" prefWidth="200"/>
+        </VBox>
+
+        <!-- Check-out Date -->
+        <VBox alignment="CENTER" spacing="5">
+            <Label text="Check-Out Date" style="-fx-font-size: 16px;"/>
+            <DatePicker fx:id="checkOutDate" prefWidth="200"/>
+        </VBox>
+
+        <!-- Number of Guests -->
+        <VBox alignment="CENTER" spacing="5">
+            <Label text="Number of Guests" style="-fx-font-size: 16px;"/>
+            <TextField fx:id="guestCountField"
+                       promptText="Enter number of guests"
+                       prefWidth="200"
+                       style="-fx-font-size: 16px;"/>
+        </VBox>
+
+        <!-- Buttons side by side -->
+        <HBox alignment="CENTER" spacing="20">
+
+            <!-- Back on the LEFT -->
+            <Button text="Back"
+                    fx:id="backButton"
+                    prefWidth="120"
+                    onAction="#onBack"/>
+
+            <!-- Continue on the RIGHT -->
+            <Button text="Continue"
+                    fx:id="continueButton"
+                    prefWidth="120"
+                    onAction="#onContinue"/>
+
+        </HBox>
+
+
+    </VBox>
+
+
+</AnchorPane>

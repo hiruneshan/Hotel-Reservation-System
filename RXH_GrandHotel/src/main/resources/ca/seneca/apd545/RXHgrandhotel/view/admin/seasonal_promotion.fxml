@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ca.seneca.apd545.RXHgrandhotel.controller.admin.SeasonalPromotionController"
+            prefWidth="900" prefHeight="650">
+
+    <!-- TOP -->
+    <top>
+        <VBox spacing="0">
+            <fx:include source="../components/banner.fxml" fx:id="banner"/>
+
+            <!-- Title Bar -->
+            <HBox alignment="CENTER_LEFT"
+                  style="-fx-background-color: #e6e6e6; -fx-padding: 10 20;">
+                <Label text="Seasonal Promotion Management"
+                       style="-fx-font-family: Arial; -fx-font-size: 20px; -fx-font-weight: bold;"/>
+            </HBox>
+        </VBox>
+    </top>
+
+    <!-- CENTER -->
+    <center>
+        <VBox spacing="15" style="-fx-padding: 15;">
+
+            <!-- CREATE PROMOTION -->
+            <TitledPane text="Create / Edit Promotion" expanded="true">
+                <GridPane hgap="10" vgap="10" style="-fx-padding: 10;">
+
+                    <Label text="Promotion Name:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                    <TextField fx:id="promoNameField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+                    <Label text="Type:" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+                    <ComboBox fx:id="promoTypeCombo" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+
+                    <Label text="Discount (%):" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                    <TextField fx:id="discountField" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+                    <Label text="Start Date:" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+                    <DatePicker fx:id="startDatePicker" GridPane.rowIndex="1" GridPane.columnIndex="3"/>
+
+                    <Label text="End Date:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+                    <DatePicker fx:id="endDatePicker" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+                    <Label text="Applicable Room Types:" GridPane.rowIndex="2" GridPane.columnIndex="2"/>
+                    <TextField fx:id="roomTypesField" GridPane.rowIndex="2" GridPane.columnIndex="3"/>
+
+                    <Label text="Conditions:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+                    <TextField fx:id="conditionsField" GridPane.rowIndex="3" GridPane.columnIndex="1" GridPane.columnSpan="3"/>
+
+                    <Label text="Status:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+                    <ComboBox fx:id="statusCombo" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+
+                    <Label fx:id="promoFeedbackLabel"
+                           GridPane.rowIndex="5" GridPane.columnIndex="0" GridPane.columnSpan="4"
+                           style="-fx-text-fill: red;"/>
+
+                    <HBox spacing="10" GridPane.rowIndex="6" GridPane.columnIndex="3" alignment="CENTER_RIGHT">
+                        <Button text="Save Promotion" fx:id="savePromoButton"/>
+                        <Button text="Clear" fx:id="clearPromoButton"/>
+                    </HBox>
+
+                </GridPane>
+            </TitledPane>
+
+            <!-- SELECTED PROMOTION DETAILS -->
+            <TitledPane text="Selected Promotion Details" expanded="false">
+                <GridPane hgap="10" vgap="8" style="-fx-padding: 10;">
+
+                    <Label text="Name:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                    <Label fx:id="detailNameLabel" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+                    <Label text="Type:" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+                    <Label fx:id="detailTypeLabel" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+
+                    <Label text="Discount:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                    <Label fx:id="detailDiscountLabel" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+                    <Label text="Start Date:" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+                    <Label fx:id="detailStartLabel" GridPane.rowIndex="1" GridPane.columnIndex="3"/>
+
+                    <Label text="End Date:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+                    <Label fx:id="detailEndLabel" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+                    <Label text="Room Types:" GridPane.rowIndex="2" GridPane.columnIndex="2"/>
+                    <Label fx:id="detailRoomTypesLabel" GridPane.rowIndex="2" GridPane.columnIndex="3"/>
+
+                    <Label text="Conditions:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+                    <Label fx:id="detailConditionsLabel" GridPane.rowIndex="3" GridPane.columnIndex="1" GridPane.columnSpan="3"/>
+
+                    <Label text="Status:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+                    <Label fx:id="detailStatusLabel" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+
+                </GridPane>
+            </TitledPane>
+
+            <!-- PROMOTION TABLE -->
+            <TitledPane text="All Seasonal Promotions" expanded="true">
+                <TableView fx:id="promotionTable" prefHeight="250">
+                    <columns>
+                        <TableColumn fx:id="colPromoName" text="Name" prefWidth="150"/>
+                        <TableColumn fx:id="colPromoType" text="Type" prefWidth="120"/>
+                        <TableColumn fx:id="colPromoDiscount" text="Discount (%)" prefWidth="100"/>
+                        <TableColumn fx:id="colPromoStart" text="Start Date" prefWidth="120"/>
+                        <TableColumn fx:id="colPromoEnd" text="End Date" prefWidth="120"/>
+                        <TableColumn fx:id="colPromoStatus" text="Status" prefWidth="100"/>
+                    </columns>
+                </TableView>
+            </TitledPane>
+
+        </VBox>
+    </center>
+
+    <!-- BOTTOM -->
+    <bottom>
+        <HBox spacing="10"
+              alignment="CENTER_RIGHT"
+              style="-fx-padding: 10 10 20 10;">
+            <Button text="Activate" fx:id="activateButton" prefWidth="120"/>
+            <Button text="Deactivate" fx:id="deactivateButton" prefWidth="120"/>
+            <Button text="Delete" fx:id="deleteButton" prefWidth="120"/>
+            <Button text="Close" fx:id="closeButton" prefWidth="120"/>
+        </HBox>
+    </bottom>
+
+</BorderPane>

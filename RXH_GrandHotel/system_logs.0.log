@@ -1,0 +1,849 @@
+Apr 04, 2026 9:42:13 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 04, 2026 9:43:30 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOYALTY_ENROLLED - Guest: rasa reis
+Apr 04, 2026 9:43:33 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOYALTY_ENROLLED - Guest: rasa reis
+Apr 04, 2026 9:49:48 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 04, 2026 9:50:44 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOYALTY_ENROLLED - Guest: rasareis
+Apr 04, 2026 9:54:51 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 04, 2026 9:55:55 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOYALTY_ENROLLED - Guest: rasareis
+Apr 04, 2026 9:58:34 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 04, 2026 9:59:40 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOYALTY_ENROLLED - Guest: rasareis
+Apr 04, 2026 10:05:31 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 04, 2026 10:06:30 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOYALTY_ENROLLED - Guest: rasareis
+Apr 04, 2026 10:12:08 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 04, 2026 10:13:16 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOYALTY_ENROLLED - Guest: rasareis
+Apr 04, 2026 10:19:51 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 04, 2026 10:20:47 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOYALTY_ENROLLED - Guest: rasareo
+Apr 04, 2026 10:28:07 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 04, 2026 10:29:05 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOYALTY_ENROLLED - Guest: reea
+Apr 04, 2026 10:35:36 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 04, 2026 10:35:48 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil warn
+WARNING: LOGIN_FAILED - Wrong password for user: admin
+Apr 04, 2026 10:36:24 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil warn
+WARNING: LOGIN_FAILED - Wrong password for user: admin
+Apr 04, 2026 10:36:37 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 04, 2026 10:36:41 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 04, 2026 10:37:08 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: manager Role: MANAGER
+Apr 04, 2026 10:38:15 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 04, 2026 10:38:29 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 04, 2026 10:38:51 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 04, 2026 10:39:22 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: manager Role: MANAGER
+Apr 04, 2026 10:40:28 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 04, 2026 10:41:15 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 04, 2026 10:42:52 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 04, 2026 10:43:13 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 04, 2026 10:47:25 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 04, 2026 10:48:21 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 04, 2026 10:49:45 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 04, 2026 10:51:47 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 04, 2026 10:53:45 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 04, 2026 10:56:23 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOYALTY_ENROLLED - Guest: rasa
+Apr 04, 2026 10:57:00 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 04, 2026 10:59:26 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 04, 2026 11:02:42 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 04, 2026 11:05:25 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 05, 2026 3:47:34 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 05, 2026 3:50:10 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil warn
+WARNING: LOGIN_FAILED - Wrong password for user: admin
+Apr 05, 2026 3:50:18 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil warn
+WARNING: LOGIN_FAILED - Wrong password for user: admin
+Apr 05, 2026 3:51:36 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil warn
+WARNING: LOGIN_FAILED - Wrong password for user: manager
+Apr 05, 2026 3:52:26 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 05, 2026 3:53:17 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 05, 2026 3:54:02 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 05, 2026 4:04:36 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 05, 2026 4:04:51 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 05, 2026 4:06:13 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 05, 2026 4:06:28 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 05, 2026 4:07:48 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=ADD_ROOM | entity=ReservationUI#N/A] Adding room to selection
+Apr 05, 2026 4:07:49 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=ADD_ROOM | entity=ReservationUI#N/A] Adding room to selection
+Apr 05, 2026 4:07:49 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=ADD_ROOM | entity=ReservationUI#N/A] Adding room to selection
+Apr 05, 2026 4:07:50 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=ADD_ROOM | entity=ReservationUI#N/A] Adding room to selection
+Apr 05, 2026 4:07:51 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=ADD_ROOM | entity=ReservationUI#N/A] Adding room to selection
+Apr 05, 2026 4:07:51 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=ADD_ROOM | entity=ReservationUI#N/A] Adding room to selection
+Apr 05, 2026 4:16:29 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 05, 2026 4:16:42 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 05, 2026 4:16:48 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=ADD_ROOM | entity=Reservation#UI] Room selected.
+Apr 05, 2026 4:17:50 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=ADD_ROOM | entity=Reservation#UI] Room selected.
+Apr 05, 2026 4:18:03 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil error
+SEVERE: RESERVATION_SAVE_FAILED
+org.hibernate.PropertyValueException: not-null property references a null or transient value : ca.seneca.apd545.RXHgrandhotel.model.Guest.address
+	at org.hibernate.engine.internal.Nullability.checkNullability(Nullability.java:109)
+	at org.hibernate.engine.internal.Nullability.checkNullability(Nullability.java:54)
+	at org.hibernate.action.internal.AbstractEntityInsertAction.nullifyTransientReferencesIfNotAlready(AbstractEntityInsertAction.java:124)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:69)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:754)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:738)
+	at ca.seneca.apd545.RXHgrandhotel.repository.GuestRepository.save(GuestRepository.java:28)
+	at ca.seneca.apd545.RXHgrandhotel.service.GuestService.save(GuestService.java:16)
+	at ca.seneca.apd545.RXHgrandhotel.service.BookingService.createAdminReservation(BookingService.java:58)
+	at ca.seneca.apd545.RXHgrandhotel.controller.admin.NewReservationController.handleCreateReservation(NewReservationController.java:117)
+	at ca.seneca.apd545.RXHgrandhotel.controller.admin.NewReservationController.lambda$initialize$3(NewReservationController.java:72)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:138)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+Apr 05, 2026 4:23:14 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 05, 2026 4:23:47 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 05, 2026 4:24:35 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=ADD_ROOM | entity=Reservation#UI] Room selected.
+Apr 05, 2026 4:24:36 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=ADD_ROOM | entity=Reservation#UI] Room selected.
+Apr 05, 2026 4:24:44 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=ADD_ROOM | entity=Reservation#UI] Room selected.
+Apr 05, 2026 4:24:47 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=ADD_ROOM | entity=Reservation#UI] Room selected.
+Apr 05, 2026 4:24:49 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil error
+SEVERE: RESERVATION_SAVE_FAILED
+org.hibernate.PropertyValueException: not-null property references a null or transient value : ca.seneca.apd545.RXHgrandhotel.model.Guest.address
+	at org.hibernate.engine.internal.Nullability.checkNullability(Nullability.java:109)
+	at org.hibernate.engine.internal.Nullability.checkNullability(Nullability.java:54)
+	at org.hibernate.action.internal.AbstractEntityInsertAction.nullifyTransientReferencesIfNotAlready(AbstractEntityInsertAction.java:124)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:69)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:754)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:738)
+	at ca.seneca.apd545.RXHgrandhotel.repository.GuestRepository.save(GuestRepository.java:28)
+	at ca.seneca.apd545.RXHgrandhotel.service.GuestService.save(GuestService.java:16)
+	at ca.seneca.apd545.RXHgrandhotel.service.BookingService.createAdminReservation(BookingService.java:58)
+	at ca.seneca.apd545.RXHgrandhotel.controller.admin.NewReservationController.handleCreateReservation(NewReservationController.java:117)
+	at ca.seneca.apd545.RXHgrandhotel.controller.admin.NewReservationController.lambda$initialize$3(NewReservationController.java:72)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:138)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+Apr 05, 2026 4:28:19 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 05, 2026 4:29:00 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: manager Role: MANAGER
+Apr 05, 2026 4:29:54 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=Admin | action=ADD_ROOM | entity=Reservation#UI] Added Room to Selection
+Apr 05, 2026 4:29:55 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=Admin | action=ADD_ROOM | entity=Reservation#UI] Added Room to Selection
+Apr 05, 2026 4:30:08 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil error
+SEVERE: RESERVATION_SAVE_FAILED
+org.hibernate.PropertyValueException: not-null property references a null or transient value : ca.seneca.apd545.RXHgrandhotel.model.Guest.address
+	at org.hibernate.engine.internal.Nullability.checkNullability(Nullability.java:109)
+	at org.hibernate.engine.internal.Nullability.checkNullability(Nullability.java:54)
+	at org.hibernate.action.internal.AbstractEntityInsertAction.nullifyTransientReferencesIfNotAlready(AbstractEntityInsertAction.java:124)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:69)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:754)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:738)
+	at ca.seneca.apd545.RXHgrandhotel.repository.GuestRepository.save(GuestRepository.java:28)
+	at ca.seneca.apd545.RXHgrandhotel.service.GuestService.save(GuestService.java:16)
+	at ca.seneca.apd545.RXHgrandhotel.service.BookingService.createAdminReservation(BookingService.java:58)
+	at ca.seneca.apd545.RXHgrandhotel.controller.admin.NewReservationController.handleCreateReservation(NewReservationController.java:120)
+	at ca.seneca.apd545.RXHgrandhotel.controller.admin.NewReservationController.lambda$initialize$3(NewReservationController.java:73)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:138)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+Apr 05, 2026 4:32:15 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 05, 2026 4:32:33 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 05, 2026 4:32:46 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 05, 2026 4:32:53 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=Admin | action=ADD_ROOM | entity=Reservation#UI] Added Room to Selection
+Apr 05, 2026 4:32:54 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=Admin | action=ADD_ROOM | entity=Reservation#UI] Added Room to Selection
+Apr 05, 2026 4:34:14 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil error
+SEVERE: RESERVATION_SAVE_FAILED
+org.hibernate.PropertyValueException: not-null property references a null or transient value : ca.seneca.apd545.RXHgrandhotel.model.Guest.address
+	at org.hibernate.engine.internal.Nullability.checkNullability(Nullability.java:109)
+	at org.hibernate.engine.internal.Nullability.checkNullability(Nullability.java:54)
+	at org.hibernate.action.internal.AbstractEntityInsertAction.nullifyTransientReferencesIfNotAlready(AbstractEntityInsertAction.java:124)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:69)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:754)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:738)
+	at ca.seneca.apd545.RXHgrandhotel.repository.GuestRepository.save(GuestRepository.java:28)
+	at ca.seneca.apd545.RXHgrandhotel.service.GuestService.save(GuestService.java:16)
+	at ca.seneca.apd545.RXHgrandhotel.service.BookingService.createAdminReservation(BookingService.java:58)
+	at ca.seneca.apd545.RXHgrandhotel.controller.admin.NewReservationController.handleCreateReservation(NewReservationController.java:120)
+	at ca.seneca.apd545.RXHgrandhotel.controller.admin.NewReservationController.lambda$initialize$3(NewReservationController.java:73)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:138)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+Apr 05, 2026 4:42:51 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 05, 2026 4:43:27 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 05, 2026 4:44:18 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=Admin | action=ADD_ROOM | entity=Reservation#UI] Added Room to Selection
+Apr 05, 2026 4:44:24 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil error
+SEVERE: RESERVATION_SAVE_FAILED
+org.hibernate.PropertyValueException: not-null property references a null or transient value : ca.seneca.apd545.RXHgrandhotel.model.Guest.address
+	at org.hibernate.engine.internal.Nullability.checkNullability(Nullability.java:109)
+	at org.hibernate.engine.internal.Nullability.checkNullability(Nullability.java:54)
+	at org.hibernate.action.internal.AbstractEntityInsertAction.nullifyTransientReferencesIfNotAlready(AbstractEntityInsertAction.java:124)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:69)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:754)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:738)
+	at ca.seneca.apd545.RXHgrandhotel.repository.GuestRepository.save(GuestRepository.java:28)
+	at ca.seneca.apd545.RXHgrandhotel.service.GuestService.save(GuestService.java:16)
+	at ca.seneca.apd545.RXHgrandhotel.service.BookingService.createAdminReservation(BookingService.java:61)
+	at ca.seneca.apd545.RXHgrandhotel.controller.admin.NewReservationController.handleCreateReservation(NewReservationController.java:120)
+	at ca.seneca.apd545.RXHgrandhotel.controller.admin.NewReservationController.lambda$initialize$3(NewReservationController.java:73)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@21/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@21/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21/javafx.scene.Node.fireEvent(Node.java:8875)
+	at javafx.controls@21/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@21/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@21/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@21/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@21/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@21/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@21/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@21/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@21/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@21/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@21/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@21/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@21/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:138)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@21/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@21/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@21/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@21/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@21/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+Apr 05, 2026 4:48:44 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 05, 2026 4:49:33 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 05, 2026 4:50:10 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=Admin | action=ADD_ROOM | entity=Reservation#UI] Added Room to Selection
+Apr 05, 2026 4:50:13 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=CREATE_RESERVATION | entity=Reservation#NEW] Admin created booking for: Testing
+Apr 05, 2026 5:02:57 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 05, 2026 5:03:21 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: Admin Role: ADMIN
+Apr 05, 2026 5:05:20 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 05, 2026 5:05:34 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: Admin Role: ADMIN
+Apr 05, 2026 5:05:40 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=ADD_ROOM | entity=Room#101] Added room to group booking.
+Apr 05, 2026 5:05:40 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=ADD_ROOM | entity=Room#101] Added room to group booking.
+Apr 05, 2026 5:05:49 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=ADD_ROOM | entity=Room#101] Added room to group booking.
+Apr 05, 2026 5:27:39 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 05, 2026 5:28:18 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 05, 2026 5:28:39 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=ADD_ROOM | entity=Room#201] Added room to group booking.
+Apr 05, 2026 5:30:22 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=ADD_ROOM | entity=Room#201] Added room to group booking.
+Apr 05, 2026 5:30:33 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=CREATE_RESERVATION | entity=Reservation#NEW] Admin created booking for: Test
+Apr 06, 2026 8:58:14 AM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 8:59:52 AM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 9:40:31 AM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 9:41:29 AM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 9:41:59 AM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: RESERVATION_CANCELLED - ID: 12, Reason: Cant come
+Apr 06, 2026 9:42:53 AM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=admin | action=APPLY_DISCOUNT | entity=Reservation#11] Discount of 10.0% applied by ADMIN
+Apr 06, 2026 9:43:16 AM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=admin | action=APPLY_DISCOUNT | entity=Reservation#11] Discount of 10.0% applied by ADMIN
+Apr 06, 2026 10:10:35 AM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 10:12:14 AM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 10:12:46 AM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: PAYMENT_APPLIED - Reservation ID: 12 Amount: 2000.0
+Apr 06, 2026 10:13:19 AM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOYALTY_EARNED - Account: L-1775357783117 | Points Added: 2000 | New Balance: 2000
+Apr 06, 2026 10:13:19 AM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: PAYMENT_APPLIED - Reservation ID: 10 Amount: 2000.0
+Apr 06, 2026 10:27:08 AM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 11:06:36 AM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 11:07:13 AM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: RESERVATION_CANCELLED - ID: 10, Reason: 
+Apr 06, 2026 3:57:34 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 4:00:05 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOYALTY_ENROLLED - Guest: Hiru
+Apr 06, 2026 4:00:22 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOYALTY_ENROLLED - Guest: Hiru
+Apr 06, 2026 4:06:09 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 4:06:22 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 4:11:58 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 4:12:11 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 4:13:30 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=ADD_ROOM | entity=Room#104] Added room to group booking.
+Apr 06, 2026 4:13:34 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=CREATE_RESERVATION | entity=Reservation#NEW] Admin created booking for: Hiru testing
+Apr 06, 2026 4:13:52 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=PAYMENT_SUCCESS | entity=Reservation#1] Payment of $500.0 (CARD) processed.
+Apr 06, 2026 4:14:36 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 4:18:08 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 4:18:43 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 4:19:37 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 4:19:51 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 4:20:55 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=ADD_ROOM | entity=Room#104] Added room to group booking.
+Apr 06, 2026 4:20:58 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=CREATE_RESERVATION | entity=Reservation#NEW] Admin created booking for: Hiru T
+Apr 06, 2026 4:21:14 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=PAYMENT_SUCCESS | entity=Reservation#1] Payment of $500.0 (CARD) processed.
+Apr 06, 2026 4:25:00 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 4:25:16 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 4:37:58 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 4:38:08 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 4:39:15 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 4:39:30 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 4:42:19 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_GENERATED - Type: Revenue Range: 2026-03-31 to 2026-04-16
+Apr 06, 2026 4:42:24 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_PDF - File: Revenue_Report.pdf Title: Monthly Revenue Summary
+Apr 06, 2026 4:42:24 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_PDF - File: Revenue_Report.pdf
+Apr 06, 2026 4:42:25 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED - File: Revenue_Report.csv
+Apr 06, 2026 4:42:25 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_CSV - File: Revenue_Report.csv
+Apr 06, 2026 4:42:26 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_PDF - File: Revenue_Report.pdf Title: Monthly Revenue Summary
+Apr 06, 2026 4:42:26 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_PDF - File: Revenue_Report.pdf
+Apr 06, 2026 4:42:26 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED - File: Revenue_Report.csv
+Apr 06, 2026 4:42:26 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_CSV - File: Revenue_Report.csv
+Apr 06, 2026 4:42:26 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_PDF - File: Revenue_Report.pdf Title: Monthly Revenue Summary
+Apr 06, 2026 4:42:26 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_PDF - File: Revenue_Report.pdf
+Apr 06, 2026 4:42:27 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED - File: Revenue_Report.csv
+Apr 06, 2026 4:42:27 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_CSV - File: Revenue_Report.csv
+Apr 06, 2026 4:42:27 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_PDF - File: Revenue_Report.pdf Title: Monthly Revenue Summary
+Apr 06, 2026 4:42:27 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_PDF - File: Revenue_Report.pdf
+Apr 06, 2026 4:42:27 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED - File: Revenue_Report.csv
+Apr 06, 2026 4:42:27 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_CSV - File: Revenue_Report.csv
+Apr 06, 2026 4:42:27 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED - File: Revenue_Report.csv
+Apr 06, 2026 4:42:27 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_CSV - File: Revenue_Report.csv
+Apr 06, 2026 4:42:28 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_PDF - File: Revenue_Report.pdf Title: Monthly Revenue Summary
+Apr 06, 2026 4:42:28 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_PDF - File: Revenue_Report.pdf
+Apr 06, 2026 6:47:32 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 6:47:45 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 6:48:10 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_GENERATED - Type: Occupancy Range: 2026-03-30 to 2026-04-30
+Apr 06, 2026 6:48:16 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_GENERATED - Type: Revenue Range: 2026-03-30 to 2026-04-30
+Apr 06, 2026 6:48:31 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_PDF - File: Revenue_Report.pdf Title: Monthly Revenue Summary
+Apr 06, 2026 6:48:31 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_PDF - File: Revenue_Report.pdf
+Apr 06, 2026 6:48:32 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED - File: Revenue_Report.csv
+Apr 06, 2026 6:48:32 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_CSV - File: Revenue_Report.csv
+Apr 06, 2026 6:48:33 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_PDF - File: Revenue_Report.pdf Title: Monthly Revenue Summary
+Apr 06, 2026 6:48:33 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_PDF - File: Revenue_Report.pdf
+Apr 06, 2026 6:48:33 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED - File: Revenue_Report.csv
+Apr 06, 2026 6:48:33 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_CSV - File: Revenue_Report.csv
+Apr 06, 2026 6:48:33 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_PDF - File: Revenue_Report.pdf Title: Monthly Revenue Summary
+Apr 06, 2026 6:48:33 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_PDF - File: Revenue_Report.pdf
+Apr 06, 2026 6:48:34 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED - File: Revenue_Report.csv
+Apr 06, 2026 6:48:34 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_CSV - File: Revenue_Report.csv
+Apr 06, 2026 6:48:34 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_PDF - File: Revenue_Report.pdf Title: Monthly Revenue Summary
+Apr 06, 2026 6:48:34 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_PDF - File: Revenue_Report.pdf
+Apr 06, 2026 6:48:34 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED - File: Revenue_Report.csv
+Apr 06, 2026 6:48:34 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_CSV - File: Revenue_Report.csv
+Apr 06, 2026 6:48:41 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_GENERATED - Type: Occupancy Range: 2026-03-30 to 2026-04-30
+Apr 06, 2026 6:54:37 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 6:56:22 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 6:56:47 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 6:57:23 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_GENERATED - Type: Revenue Range: 2026-03-30 to 2026-04-30
+Apr 06, 2026 6:57:32 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED - File: Revenue_Report_2026-04-06.csv
+Apr 06, 2026 6:57:32 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=Admin | action=EXPORT | entity=Report#Revenue] Exported Revenue_Report_2026-04-06.csv
+Apr 06, 2026 6:57:42 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_PDF - File: Revenue_Report.pdf Title: Monthly Revenue Summary
+Apr 06, 2026 6:57:42 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_PDF - File: Revenue_Report.pdf
+Apr 06, 2026 6:57:43 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_PDF - File: Revenue_Report.pdf Title: Monthly Revenue Summary
+Apr 06, 2026 6:57:43 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_PDF - File: Revenue_Report.pdf
+Apr 06, 2026 7:00:58 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 7:01:12 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 7:08:17 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 7:08:28 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 7:09:38 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=ADD_ROOM | entity=Room#201] Added room to group booking.
+Apr 06, 2026 7:09:44 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=CREATE_RESERVATION | entity=Reservation#NEW] Admin created booking for: Testing 1
+Apr 06, 2026 7:25:00 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 7:25:13 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 7:25:57 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=ADD_ROOM | entity=Room#103] Added room to group booking.
+Apr 06, 2026 7:26:21 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=CREATE_RESERVATION | entity=Reservation#NEW] Admin created booking for: Testing 2
+Apr 06, 2026 7:35:15 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 7:35:30 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 7:38:26 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=PAYMENT_SUCCESS | entity=Reservation#3] Payment of $200.0 (CASH) processed.
+Apr 06, 2026 7:44:30 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 7:44:44 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 7:47:44 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 7:47:59 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 7:48:43 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=WAITLIST_ADD | entity=WaitlistEntry#1] Guest test added.
+Apr 06, 2026 7:54:00 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 7:54:20 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 7:54:47 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=WAITLIST_ADD | entity=WaitlistEntry#2] Guest testing added.
+Apr 06, 2026 7:54:52 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=WAITLIST_CONVERT | entity=WaitlistEntry#2] Converted to Reservation.
+Apr 06, 2026 7:54:52 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: WAITLIST_CONVERTED - ID: 2
+Apr 06, 2026 7:56:41 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=WAITLIST_CONVERT | entity=WaitlistEntry#1] Converted to Reservation.
+Apr 06, 2026 7:56:41 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: WAITLIST_CONVERTED - ID: 1
+Apr 06, 2026 8:12:18 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 8:12:29 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 8:12:58 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=WAITLIST_ADD | entity=WaitlistEntry#3] Guest testing 4 added.
+Apr 06, 2026 8:15:02 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 8:15:25 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 8:15:54 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=WAITLIST_CONVERT | entity=WaitlistEntry#3] Converted to Reservation with Total: $135.6
+Apr 06, 2026 8:15:54 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: WAITLIST_CONVERTED - ID: 3
+Apr 06, 2026 9:28:18 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 9:29:31 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOYALTY_ENROLLED - Guest: Testing member
+Apr 06, 2026 9:32:18 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 9:34:01 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 10:47:56 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 10:48:31 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 10:53:51 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 10:54:42 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin Role: ADMIN
+Apr 06, 2026 10:59:28 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=ADD_ROOM | entity=Room#103] Added room to group booking.
+Apr 06, 2026 11:00:28 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil init
+INFO: [LoggerUtil] Logger initialized successfully.
+Apr 06, 2026 11:01:03 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOGIN_SUCCESS - User: admin  Role: ADMIN
+Apr 06, 2026 11:05:04 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=ADD_ROOM | entity=Room#102] Added room to group booking.
+Apr 06, 2026 11:05:07 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=CREATE_RESERVATION | entity=Reservation#NEW] Admin created booking for: hiru testing 
+Apr 06, 2026 11:05:42 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: RESERVATION_CANCELLED - ID: 9, Reason: testing
+Apr 06, 2026 11:06:02 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: LOYALTY_EARNED - Account: L-1775525371843 | Points Added: 500 | New Balance: 500
+Apr 06, 2026 11:06:02 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=PAYMENT_SUCCESS | entity=Reservation#8] Payment of $500.0 (CARD) processed.
+Apr 06, 2026 11:07:39 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=WAITLIST_ADD | entity=WaitlistEntry#4] Guest Waitlist added.
+Apr 06, 2026 11:07:56 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=ADMIN | action=WAITLIST_CONVERT | entity=WaitlistEntry#4] Converted to Reservation with Total: $406.8
+Apr 06, 2026 11:07:56 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: WAITLIST_CONVERTED - ID: 4
+Apr 06, 2026 11:09:07 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_GENERATED - Type: Occupancy Range: 2026-05-07 to 2026-05-03
+Apr 06, 2026 11:09:22 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED_PDF - File: Occupancy_Report_2026-04-06.pdf Title: Occupancy Status Report
+Apr 06, 2026 11:09:22 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: [actor=Admin | action=EXPORT | entity=PDF_Report#Occupancy] File: Occupancy_Report_2026-04-06.pdf
+Apr 06, 2026 11:10:54 PM ca.seneca.apd545.RXHgrandhotel.util.LoggerUtil info
+INFO: REPORT_EXPORTED - File: ActivityLogs_2026-04-06.csv

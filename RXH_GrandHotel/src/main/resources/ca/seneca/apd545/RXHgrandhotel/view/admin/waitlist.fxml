@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ca.seneca.apd545.RXHgrandhotel.controller.admin.WaitlistController"
+            prefWidth="900" prefHeight="650">
+    <top>
+        <VBox spacing="0">
+            <fx:include source="../components/banner.fxml" fx:id="banner"/>
+            <HBox alignment="CENTER_LEFT"
+                  style="-fx-background-color: #e6e6e6; -fx-padding: 10 20;">
+                <Label text="Waitlist Management"
+                       style="-fx-font-family: Arial; -fx-font-size: 20px; -fx-font-weight: bold;"/>
+            </HBox>
+        </VBox>
+    </top>
+
+    <!-- CENTER -->
+    <center>
+        <VBox spacing="15" style="-fx-padding: 15;">
+
+            <!-- ADD TO WAITLIST -->
+            <TitledPane text="Add to Waitlist" expanded="true">
+                <GridPane hgap="10" vgap="8" style="-fx-padding: 10;">
+
+                    <Label text="Guest Name:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                    <TextField fx:id="guestNameField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+                    <Label text="Phone:" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+                    <TextField fx:id="phoneField" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+
+                    <Label text="Email:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                    <TextField fx:id="emailField" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+                    <Label text="Loyalty Status:" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+                    <Label fx:id="loyaltyStatusLabel" GridPane.rowIndex="1" GridPane.columnIndex="3"/>
+
+                    <Label text="Room Type:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+                    <ComboBox fx:id="roomTypeCombo" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+                    <Label text="Party Size:" GridPane.rowIndex="2" GridPane.columnIndex="2"/>
+                    <Spinner fx:id="partySizeSpinner" GridPane.rowIndex="2" GridPane.columnIndex="3"/>
+
+                    <Label text="From Date:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+                    <DatePicker fx:id="fromDatePicker" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+                    <Label text="To Date:" GridPane.rowIndex="3" GridPane.columnIndex="2"/>
+                    <DatePicker fx:id="toDatePicker" GridPane.rowIndex="3" GridPane.columnIndex="3"/>
+
+                    <Label text="Flexibility:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+                    <ComboBox fx:id="flexibilityCombo" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+
+                    <Label text="Notes:" GridPane.rowIndex="4" GridPane.columnIndex="2"/>
+                    <TextField fx:id="notesField" GridPane.rowIndex="4" GridPane.columnIndex="3"/>
+
+                    <Button text="Add to Waitlist" fx:id="addWaitlistButton"
+                            GridPane.rowIndex="5" GridPane.columnIndex="3"/>
+
+                    <Label fx:id="waitlistFeedbackLabel"
+                           GridPane.rowIndex="6" GridPane.columnIndex="0" GridPane.columnSpan="4"
+                           style="-fx-text-fill: red;"/>
+                </GridPane>
+            </TitledPane>
+
+            <!-- SELECTED ENTRY DETAILS -->
+            <TitledPane text="Selected Entry Details" expanded="false">
+                <GridPane hgap="10" vgap="8" style="-fx-padding: 10;">
+
+                    <Label text="Guest:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                    <Label fx:id="detailGuestLabel" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+                    <Label text="Phone:" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+                    <Label fx:id="detailPhoneLabel" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+
+                    <Label text="Email:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                    <Label fx:id="detailEmailLabel" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+                    <Label text="Room Type:" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+                    <Label fx:id="detailRoomTypeLabel" GridPane.rowIndex="1" GridPane.columnIndex="3"/>
+
+                    <Label text="Party Size:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+                    <Label fx:id="detailPartySizeLabel" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+                    <Label text="From:" GridPane.rowIndex="2" GridPane.columnIndex="2"/>
+                    <Label fx:id="detailFromLabel" GridPane.rowIndex="2" GridPane.columnIndex="3"/>
+
+                    <Label text="To:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+                    <Label fx:id="detailToLabel" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+                    <Label text="Flexibility:" GridPane.rowIndex="3" GridPane.columnIndex="2"/>
+                    <Label fx:id="detailFlexibilityLabel" GridPane.rowIndex="3" GridPane.columnIndex="3"/>
+
+                    <Label text="Notes:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+                    <Label fx:id="detailNotesLabel" GridPane.rowIndex="4" GridPane.columnIndex="1" GridPane.columnSpan="3"/>
+
+                </GridPane>
+            </TitledPane>
+
+            <!-- WAITLIST TABLE -->
+            <TitledPane text="Waitlist Entries" expanded="true">
+                <TableView fx:id="waitlistTable" prefHeight="250">
+                    <columns>
+                        <TableColumn fx:id="colWLGuest" text="Guest" prefWidth="150"/>
+                        <TableColumn fx:id="colWLPhone" text="Phone" prefWidth="120"/>
+                        <TableColumn fx:id="colWLEmail" text="Email" prefWidth="150"/>
+                        <TableColumn fx:id="colWLRoomType" text="Room Type" prefWidth="120"/>
+                        <TableColumn fx:id="colWLPartySize" text="Party Size" prefWidth="90"/>
+                        <TableColumn fx:id="colWLFrom" text="From" prefWidth="100"/>
+                        <TableColumn fx:id="colWLTo" text="To" prefWidth="100"/>
+                        <TableColumn fx:id="colWLFlexibility" text="Flexibility" prefWidth="100"/>
+                        <TableColumn fx:id="colWLStatus" text="Status" prefWidth="100"/>
+                    </columns>
+                </TableView>
+            </TitledPane>
+
+        </VBox>
+    </center>
+
+    <!-- BOTTOM -->
+    <bottom>
+        <HBox spacing="10"
+              alignment="CENTER_RIGHT"
+              style="-fx-padding: 10 10 20 10;"> <!-- extra bottom padding -->
+            <Button text="Convert to Reservation" fx:id="convertButton" prefWidth="180"/>
+            <Button text="Close" fx:id="closeButton" prefWidth="120"/>
+        </HBox>
+    </bottom>
+
+</BorderPane>

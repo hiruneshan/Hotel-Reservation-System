@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ca.seneca.apd545.RXHgrandhotel.controller.admin.AdminDashboardController"
+            prefWidth="900" prefHeight="650">
+
+    <!-- TOP SECTION -->
+    <top>
+        <VBox spacing="0">
+
+            <!-- Banner -->
+            <fx:include source="../components/banner.fxml" fx:id="banner"/>
+
+
+
+
+            <!-- Admin Header Bar -->
+            <HBox alignment="CENTER_LEFT"
+                  spacing="10"
+                  style="-fx-background-color: #e6e6e6; -fx-padding: 10 20 10 20;">
+
+                <Label text="Admin Dashboard"
+                       style="-fx-font-family: Arial; -fx-font-size: 20px; -fx-font-weight: bold;"/>
+
+                <Pane HBox.hgrow="ALWAYS"/>
+
+                <Button fx:id="logoutButton"
+                        text="Logout"
+                        prefWidth="120"
+                        style="-fx-font-family: Arial; -fx-font-size: 14px;"/>
+            </HBox>
+
+        </VBox>
+    </top>
+
+    <!-- CENTER CONTENT -->
+    <center>
+        <VBox spacing="15" style="-fx-padding: 15;">
+
+            <!-- FILTERS -->
+            <TitledPane text="Search &amp; Filters" expanded="false">
+                <GridPane hgap="10" vgap="8" style="-fx-padding: 10;">
+
+                    <Label text="Guest Name:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                    <TextField fx:id="nameFilterField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+                    <Label text="Phone:" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+                    <TextField fx:id="phoneFilterField" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+
+                    <Label text="Booking ID:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                    <TextField fx:id="bookingIdFilterField" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+                    <Label text="Loyalty Status:" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+                    <ComboBox fx:id="loyaltyFilterCombo" GridPane.rowIndex="1" GridPane.columnIndex="3"/>
+
+                    <Label text="From Date:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+                    <DatePicker fx:id="fromDatePicker" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+                    <Label text="To Date:" GridPane.rowIndex="2" GridPane.columnIndex="2"/>
+                    <DatePicker fx:id="toDatePicker" GridPane.rowIndex="2" GridPane.columnIndex="3"/>
+
+                    <Label text="Status:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+                    <ComboBox fx:id="statusFilterCombo" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+                    <Button text="Search" fx:id="searchButton"
+                            GridPane.rowIndex="3" GridPane.columnIndex="3"
+                            prefWidth="120"/>
+                </GridPane>
+            </TitledPane>
+
+            <!-- TABLE -->
+            <TableView fx:id="reservationTable" VBox.vgrow="ALWAYS">
+                <columns>
+                    <TableColumn fx:id="colReservationId" text="Reservation ID" prefWidth="100"/>
+                    <TableColumn fx:id="colGuestName" text="Guest Name" prefWidth="150"/>
+                    <TableColumn fx:id="colPhone" text="Phone" prefWidth="120"/>
+                    <TableColumn fx:id="colLoyalty" text="Loyalty" prefWidth="80"/>
+                    <TableColumn fx:id="colCheckIn" text="Check-in" prefWidth="100"/>
+                    <TableColumn fx:id="colCheckOut" text="Check-out" prefWidth="100"/>
+                    <TableColumn fx:id="colStatus" text="Status" prefWidth="100"/>
+
+                    <!-- NEW DISCOUNT COLUMN -->
+                    <TableColumn fx:id="colDiscount" text="Discount (%)" prefWidth="100"/>
+
+                    <TableColumn fx:id="colBalance" text="Balance" prefWidth="100"/>
+                    <TableColumn fx:id="colPaymentStatus" text="Payment" prefWidth="100"/>
+                </columns>
+            </TableView>
+
+            <!-- SLEEK PAGINATION BAR -->
+            <HBox fx:id="paginationBar"
+                  alignment="CENTER"
+                  spacing="12"
+                  style="-fx-padding: 12;">
+
+                <Button fx:id="prevPageButton"
+                        text="⟨ Prev"
+                        prefWidth="80"
+                        style="-fx-font-family: Arial; -fx-font-size: 14px; -fx-background-radius: 20; -fx-background-color: #e0e0e0;"/>
+
+                <HBox fx:id="pageNumberContainer"
+                      alignment="CENTER"
+                      spacing="6">
+                    <!-- dynamically populated -->
+                </HBox>
+
+                <Button fx:id="nextPageButton"
+                        text="Next ⟩"
+                        prefWidth="80"
+                        style="-fx-font-family: Arial; -fx-font-size: 14px; -fx-background-radius: 20; -fx-background-color: #e0e0e0;"/>
+            </HBox>
+
+        </VBox>
+    </center>
+
+    <!-- BOTTOM ACTION BAR -->
+    <bottom>
+        <VBox spacing="10" style="-fx-padding: 10 15 10 15;">
+
+            <!-- Row 1: Reservation Operations -->
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="Reservations:"
+                       style="-fx-font-family: Arial; -fx-font-size: 14px; -fx-font-weight: bold;"/>
+
+                <Button fx:id="newReservationButton" text="New Reservation (Phone)" prefWidth="180"/>
+                <Button fx:id="editReservationButton" text="Edit Reservation" prefWidth="150"/>
+                <Button fx:id="cancelReservationButton" text="Cancel Reservation" prefWidth="150"/>
+            </HBox>
+
+            <!-- Row 2: Management Tools -->
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="Management:"
+                       style="-fx-font-family: Arial; -fx-font-size: 14px; -fx-font-weight: bold;"/>
+
+                <Button fx:id="paymentsButton" text="Payments" prefWidth="120"/>
+                <Button fx:id="waitlistButton" text="Waitlist" prefWidth="120"/>
+                <Button fx:id="loyaltyButton" text="Loyalty" prefWidth="120"/>
+                <Button fx:id="feedbackButton" text="Feedback" prefWidth="120"/>
+
+                <!-- NEW: Apply Discount Button -->
+                <Button fx:id="applyDiscountButton" text="Apply Discount" prefWidth="140"/>
+            </HBox>
+
+            <!-- Row 3: Admin Tools -->
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="Admin Tools:"
+                       style="-fx-font-family: Arial; -fx-font-size: 14px; -fx-font-weight: bold;"/>
+
+                <Button fx:id="reportsButton" text="Reports" prefWidth="120"/>
+                <Button fx:id="activityLogButton" text="Activity Log" prefWidth="120"/>
+                <Button fx:id="seasonalPromoButton" text="Seasonal Promotion" prefWidth="160"/>
+            </HBox>
+
+        </VBox>
+    </bottom>
+
+</BorderPane>
